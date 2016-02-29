@@ -5,3 +5,26 @@ If the file type is a url, the plugin will open the link in a external browser
 Adding the Plugin to your project
 -----------
     $ cordova plugin add https://github.com/OpenCollabZA/cordova-plugin-fileopener.git
+    
+Usage
+-----------
+    var FileOpener = window.plugins.FileOpener;
+    var option = {
+        'path' : "cdvfile://path/to/file",
+        'mimeType' : "text/html"
+    };
+    function successHandler(){
+       // Handle file being opened
+    }
+    function errorHandler(error){
+      // Handle error opening the file
+    }
+    
+    // Call the plugin
+    FileOpener.open(option,successHandler, errorHandler);
+    
+Errors
+-----------
+FileOpener.FAIL\_TO\_OPEN
+
+FileOpener.NO\_APP
