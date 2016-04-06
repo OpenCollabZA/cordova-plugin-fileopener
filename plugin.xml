@@ -41,7 +41,7 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="FileOpener">
-				<param name="android-package" value="coza.opencollab.cordova.plugins.fileopener"/>
+				<param name="android-package" value="coza.opencollab.cordova.plugins.fileopener.FileOpener"/>
 			</feature>
 
 		</config-file>
