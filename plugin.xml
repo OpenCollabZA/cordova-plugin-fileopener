@@ -45,7 +45,7 @@
 			</feature>
 
 		</config-file>
-		<source-file src="src/android/FileOpener.java" target-dir="src/coza/opencollab/cordova/plugins/FileOpener" />
+		<source-file src="src/android/FileOpener.java" target-dir="src/coza/opencollab/cordova/plugins/fileopener" />
 	</platform>
 
 	<platform name="ios">
