@@ -27,7 +27,7 @@ FileOpener.open(option,successHandler, errorHandler);
 Errors
 -----------
 ```javascript
-FileOpener.FAIL\_TO\_OPEN
+FileOpener.FAIL_TO_OPEN
 
-FileOpener.NO\_APP
+FileOpener.NO_APP
 ```
